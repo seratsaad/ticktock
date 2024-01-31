@@ -1,0 +1,180 @@
+SIMPLE  =                    T / conforms to FITS standard                      
+BITPIX  =                    8 / array data type                                
+NAXIS   =                    0 / number of array dimensions                     
+EXTEND  =                    T                                                  
+NEXTEND =                    1 / Number of standard extensions                  
+DATE    = '2023-01-07'         / date this file was written (yyyy-mm-dd)        
+FILENAME= 'lf0a01010_x1dsum.fits' / name of file                                
+FILETYPE= 'SCI      '          / type of data found in data file                
+                                                                                
+TELESCOP= 'HST'                / telescope used to acquire data                 
+INSTRUME= 'COS   '             / identifier for instrument used to acquire data 
+EQUINOX =               2000.0 / equinox of celestial coord. system             
+                                                                                
+              / DATA DESCRIPTION KEYWORDS                                       
+                                                                                
+ROOTNAME= 'lf0a01awq                         ' / rootname of the observation set
+IMAGETYP= 'TIME-TAG          ' / type of exposure identifier                    
+PRIMESI = 'COS   '             / instrument designated as prime                 
+                                                                                
+              / TARGET INFORMATION                                              
+                                                                                
+TARGNAME= '2MASS-J14301603+2303445        ' / proposer's target name            
+RA_TARG =   2.175668860413E+02 / right ascension of the target (deg) (J2000)    
+DEC_TARG=   2.306234565117E+01 / declination of the target (deg) (J2000)        
+                                                                                
+              / PROPOSAL INFORMATION                                            
+                                                                                
+PROPOSID=                17208 / PEP proposal identifier                        
+LINENUM = '01.002         '    / proposal logsheet line number                  
+PR_INV_L= 'Runnoe                        ' / last name of principal investigator
+PR_INV_F= 'Jessie              ' / first name of principal investigator         
+PR_INV_M= 'Caye                ' / middle name / initial of principal investigat
+                                                                                
+              / SUMMARY EXPOSURE INFORMATION                                    
+                                                                                
+QUALCOM1= '                                                                    '
+QUALCOM2= '                                                                    '
+QUALCOM3= '                                                                    '
+QUALITY = '                                                                    '
+                                                                                
+              / TARGET OFFSETS (POSTARGS)                                       
+                                                                                
+POSTARG1=             0.000000 / POSTARG in axis 1 direction                    
+POSTARG2=             0.000000 / POSTARG in axis 2 direction                    
+                                                                                
+              / DIAGNOSTIC KEYWORDS                                             
+                                                                                
+PROCTIME=   5.995126337963E+04 / pipeline processing time (MJD)                 
+OPUS_VER= 'HSTDP 2022_3                ' / data processing software system versi
+AWSYSVER= '                            ' / cloud infrastructure package version 
+AWSDPVER= '                            ' / cloud docker image version           
+CSYS_VER= 'caldp_20221010'     / calibration software system version id         
+CAL_VER = '3.4.3   '           / CALCOS code version                            
+                                                                                
+              / SCIENCE INSTRUMENT CONFIGURATION                                
+                                                                                
+OBSTYPE = 'SPECTROSCOPIC '     / observation type - imaging or spectroscopic    
+OBSMODE = 'TIME-TAG  '         / operating mode                                 
+EXPTYPE = 'EXTERNAL/SCI'       / type of exposure                               
+DETECTOR= 'FUV'                / FUV or NUV                                     
+DETECTHV= 'NomA    '           / FUV High voltage state, from LDCSTATE          
+COSCOORD= 'USER    '           / COS output coordinate frame                    
+SUBARRAY=                    T / data from a subarray (T) or full frame (F)     
+LAMPPLAN= 'P1            '     / Name of lamp that was planned to be used       
+LAMPUSED= 'P1      '           / lamp status, NONE or name of lamp which is on  
+LAMPSET = 'Medium'             / spectral cal lamp current value (milliamps)    
+LIFE_ADJ=                    3 / Life Time Adjustment Position                  
+EXP_NUM =                    1 / exposure number for repeated observations      
+NRPTEXP =                    1 / number of repeat exposures in set: default 1   
+MFPPOS  = '1, 2, 3, 4'                                                          
+CENWAVE =                  800 / central wavelength of spectrum                 
+MCENWAVE= '800     '                                                            
+APERTURE= 'PSA '               / aperture name                                  
+PROPAPER= 'PSA             '   / proposed aperture name                         
+APER_FOV= '2.5 arcsec (0.700 mm) diameter circular' / aperture field of view    
+APMPOS  = 'PSA-FUV3'           / Aperture Mechanism Position from telemetry     
+APERXPOS=                 22.1 / Aperture Block Position dispersion (telemetry) 
+APERYPOS=                182.1 / Aperture Block Pos. cross dispersion(telemetry)
+OPT_ELEM= 'G140L   '           / optical element in use                         
+SHUTTER = 'Open '              / External Shutter Position (OPEN, CLOSED)       
+EXTENDED= 'NO '                / Is target specified as extended object?        
+TAGFLASH= 'AUTO            '   / Type of flashed exposures in time-tag          
+                                                                                
+              / CALIBRATION SWITCHES: PERFORM, OMIT, COMPLETE                   
+                                                                                
+FLATCORR= 'COMPLETE'           / apply flat-field correction                    
+DEADCORR= 'COMPLETE'           / correct for deadtime                           
+DQICORR = 'COMPLETE'           / data quality initialization                    
+STATFLAG=                    T / Calculate statistics?                          
+TEMPCORR= 'COMPLETE'           / correct for thermal distortion                 
+GEOCORR = 'COMPLETE'           / correct FUV for geometic distortion            
+DGEOCORR= 'OMIT    '           / Delta Corrections to FUV Geometric Distortion  
+IGEOCORR= 'COMPLETE'           / interpolate geometric distortion in INL file   
+RANDCORR= 'COMPLETE'           / add pseudo-random numbers to raw x and y       
+RANDSEED=           1673072413 / seed for pseudo-random number generator        
+XWLKCORR= 'COMPLETE'           / Correct FUV for Walk Distortion in X           
+YWLKCORR= 'COMPLETE'           / Correct FUV for Walk Distortion in Y           
+PHACORR = 'COMPLETE'           / filter by pulse-height                         
+TRCECORR= 'COMPLETE'           / trace correction                               
+ALGNCORR= 'COMPLETE'           / align data to profile                          
+XTRCTALG= 'TWOZONE '           / BOXCAR or TWOZONE                              
+BADTCORR= 'OMIT    '           / filter by time (excluding bad time intervals)  
+DOPPCORR= 'COMPLETE'           / orbital Doppler correction                     
+HELCORR = 'COMPLETE'           / heliocentric Doppler correction                
+X1DCORR = 'COMPLETE'           / 1-D spectral extraction                        
+BACKCORR= 'COMPLETE'           / subtract background (when doing 1-D extraction)
+WAVECORR= 'COMPLETE'           / use wavecal to adjust wavelength zeropoint     
+FLUXCORR= 'COMPLETE'           / convert count-rate to absolute flux units      
+BRSTCORR= 'OMIT    '           / switch controlling search for FUV bursts       
+TDSCORR = 'COMPLETE'           / switch for time-dependent sensitivity correctio
+                                                                                
+              / CALIBRATION REFERENCE FILES                                     
+                                                                                
+FLATFILE= 'lref$z6n16117l_flat.fits' / Pixel to Pixel Flat Field Reference File 
+DEADTAB = 'lref$s7g1700gl_dead.fits' / Deadtime Reference Table                 
+BPIXTAB = 'lref$69m20528l_bpix.fits' / bad pixel table                          
+SPOTTAB = 'lref$69f20032l_spot.fits' / Transient Bad Pixel Table                
+GSAGTAB = 'lref$5b919208l_gsag.fits' / ext. 34 for FUVA                         
+HVTAB   = 'N/A                    ' / High voltage command level Reference Table
+BRFTAB  = 'lref$x1u1459il_brf.fits' / Baseline Reference Frame Reference Table  
+GEOFILE = 'lref$x1u1459gl_geo.fits' / Geometric Correction Reference File       
+DGEOFILE= 'N/A                    ' / Delta Geometric Correction Reference Image
+TRACETAB= 'lref$5b91919sl_trace.fits' / 1D spectral trace table                 
+PROFTAB = 'lref$5b91920fl_profile.fits' / 2D spectrum profile table             
+TWOZXTAB= 'lref$5b919203l_2zx.fits' / Two-zone spectral extraction parameters   
+XWLKFILE= 'lref$14o2013ql_xwalk.fits' / X Walk Correction Lookup Reference Image
+YWLKFILE= 'lref$14o2013rl_ywalk.fits' / Y Walk Correction Lookup Reference Image
+PHATAB  = 'lref$wc318317l_pha.fits' / Pulse Height Discrimination Reference Tabl
+PHAFILE = 'N/A                    ' / Pulse Height Threshold Reference File     
+BADTTAB = 'N/A                    ' / Bad Time Interval Reference Table         
+XTRACTAB= 'lref$5b919206l_1dx.fits' / 1-D Spectral Extraction Information Table 
+LAMPTAB = 'lref$5b91919tl_lamp.fits' / template calibration lamp spectra table  
+DISPTAB = 'lref$5b919205l_disp.fits' / Dispersion Coefficient Reference Table   
+IMPHTTAB= 'N/A                    ' / Imaging photometric table                 
+FLUXTAB = 'lref$62m19535l_phot.fits' / Spectroscopic flux calibration table     
+WCPTAB  = 'lref$u1t1616ql_wcp.fits' / wavecal parameters table                  
+BRSTTAB = 'N/A                    ' / burst parameters table                    
+TDSTAB  = 'lref$52m2056hl_tds.fits' / time-dependent sensitivity correction tabl
+SPWCSTAB= 'lref$49g17154l_spwcs.fits' / Spectroscopic WCS Parameters Table      
+                                                                                
+              / ENGINEERING PARAMETERS FOR CALIBRATION                          
+                                                                                
+MFPOFSET= '-2, -1, 0, 1'                                                        
+                                                                                
+              / TARGET ACQUISITION DATASET IDENTIFIERS                          
+                                                                                
+ACQSNAME= '          '         / rootname of first acquisition search exposure  
+ACQINAME= 'LF0A01AUx '         / rootname of first acquisition image exposure   
+PEAKXNAM= '          '         / Rootname of 1st cross-dispersion (XD) peakup   
+PEAKDNAM= '          '         / Rootname of 1st along-dispersion (AD) peakup   
+ACQ_NUM =                    1 / total number of exposures in acq sequence      
+                                                                                
+              / ARCHIVE SEARCH KEYWORDS                                         
+                                                                                
+BANDWID =    1167.275640115455 / bandwidth of the data                          
+SPECRES =               2000.0 / approx. resolving power at central wavelength  
+CENTRWV =    1363.696060941282 / central wavelength of the data                 
+MINWAVE =    780.0582408835545 / minimum wavelength in spectrum                 
+MAXWAVE =     1947.33388099901 / maximum wavelength in spectrum                 
+PLATESC =         0.0212314212 / plate scale (arcsec/pixel)                     
+                                                                                
+              / PAPER PRODUCT SUPPORT KEYWORDS                                  
+                                                                                
+PROPTTL1= 'Tick Tock, Time''s Up: An Alternative to the Supermassive Black Hole'
+PROPTTL2= 'Binary Scenario in J1430                                            '
+OBSET_ID= '01'                 / observation set id                             
+TARDESCR= 'GALAXY;SEYFERT                                                      '
+TARDESC2= '                                                                    '
+MTFLAG  = ' '                  / moving target flag; T if it is a moving target 
+PARALLAX=   0.000000000000E+00 / target parallax from proposal                  
+MU_RA   =  -2.262009886373E-03 / target proper motion from proposal (degrees RA)
+MU_DEC  =   2.044207925417E-03 / target proper motion from proposal (deg. DEC)  
+MU_EPOCH= 'J2016     '         / epoch of proper motion from proposal           
+                                                                                
+              / ASSOCIATION KEYWORDS                                            
+                                                                                
+ASN_ID  = 'LF0A01010 '         / unique identifier assigned to association      
+ASN_TAB = 'lf0a01010_asn.fits     ' / name of the association table             
+CRDS_CTX= 'hst_1059.pmap'                                                       
+CRDS_VER= '11.16.9, b11.4.0, 64d96076d89b32a5687a6b77bb910ab93b3a99b3'          
